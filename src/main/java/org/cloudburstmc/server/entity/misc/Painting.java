@@ -18,32 +18,32 @@ public interface Painting extends Entity {
 
     @RequiredArgsConstructor
     enum Motive {
-        KEBAB("Kebab", 1, 1),
-        AZTEC("Aztec", 1, 1),
         ALBAN("Alban", 1, 1),
+        AZTEC("Aztec", 1, 1),
         AZTEC2("Aztec2", 1, 1),
         BOMB("Bomb", 1, 1),
+        KEBAB("Kebab", 1, 1),
         PLANT("Plant", 1, 1),
         WASTELAND("Wasteland", 1, 1),
-        WANDERER("Wanderer", 1, 2),
-        GRAHAM("Graham", 1, 2),
-        POOL("Pool", 2, 1),
         COURBET("Courbet", 2, 1),
-        SUNSET("Sunset", 2, 1),
+        POOL("Pool", 2, 1),
         SEA("Sea", 2, 1),
         CREEBET("Creebet", 2, 1),
-        MATCH("Match", 2, 2),
+        SUNSET("Sunset", 2, 1),
+        GRAHAM("Graham", 1, 2),
+        WANDERER("Wanderer", 1, 2),
         BUST("Bust", 2, 2),
+        MATCH("Match", 2, 2),
+        SKULL_AND_ROSES("SkullAndRoses", 2, 2),
         STAGE("Stage", 2, 2),
         VOID("Void", 2, 2),
-        SKULL_AND_ROSES("SkullAndRoses", 2, 2),
         WITHER("Wither", 2, 2),
         FIGHTERS("Fighters", 4, 2),
-        SKELETON("Skeleton", 4, 3),
         DONKEY_KONG("DonkeyKong", 4, 3),
-        POINTER("Pointer", 4, 4),
+        SKELETON("Skeleton", 4, 3),
+        BURNINGSKULL("BurningSkull", 4, 4);
         PIG_SCENE("Pigscene", 4, 4),
-        FLAMING_SKULL("Flaming Skull", 4, 4);
+        POINTER("Pointer", 4, 4),
 
         public final String title;
         public final int width;
